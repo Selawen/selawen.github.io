@@ -1,0 +1,209 @@
+body  { 
+	color: #010;
+	font-size: 12pt;
+	font-family: Helvetica, Verdana, Arial, Geneva, Swiss, SunSans-Regular;
+    font-weight: bold;
+	background-color: #4e635a;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: -1px;
+	width: 1000px;
+    margin: auto;
+	background-color: #5c6460;
+	font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {display: inline-block;}
+
+nav a {
+    display: block;
+    text-decoration: none; 
+    min-width: 60px;
+    padding: 10px 6px;
+}
+
+nav a:link, nav a:visited { 
+    color: #fb7452;
+    background-color: #5c6460;
+}
+
+nav a:hover, nav a:active, .dropdown:hover .dropbtn { 
+    color: #fa6039;
+    background-color: #b8c791;  
+}
+
+li.dropdown {display: inline-block;}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+}
+
+.dropdown-content a {
+    padding: 10px 12px 18px 12px;
+    display: block;
+    width: 160px;
+}
+
+.dropdown-content a:hover {background-color: #ced9b3;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+nav ul .cssswitch a{
+    font-size: 10pt;
+    min-width: 47px;
+    padding: 12px;
+}
+
+#content {
+    overflow: auto;
+    min-height: 400px;
+    background-color: #d4ddbd;
+    padding: 0 60px 30px 60px;
+    width: 880px;
+    margin: auto;
+}
+
+header {
+    font-family: Lucida Console, monospace;
+    font-size: 72pt;
+    color: #fb7452;
+    padding: 10px;
+    background-image: linear-gradient(to right, #314838, #607a6c);
+}
+
+header p {
+    font-size: 20pt;
+    color: #190703;
+    text-align: center;
+}
+
+
+H1 {
+    font-family: Lucida Console, monospace;
+    display: block;
+    clear: both;
+    margin: 10px 100px 15px 100px;
+    border-bottom: 5px solid #b8c791;
+    border-radius: 0 0 5px 5px;
+    color: #fa6039;
+}
+
+H2 {
+    font-family: Lucida Console, monospace;
+    display: block;
+    margin: 5px 0 10px 0;
+    color: #fb7452;
+}
+
+p {
+	color: #010;
+    text-align: left;
+    font-weight: normal;
+    margin: 10px 10px 20px 10px;
+}
+
+
+footer {
+    text-align: left;
+    font-weight: normal;
+    background-color: #5c6460;
+    width: 980px;
+    margin: auto;
+    padding: 0 0 0 20px;
+}
+
+a:link, a:visited {color: #4e635a; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+#welkom p {text-align: center;}
+#blok2 {float: left; width: 430px;}
+#blok1 {float: right; width: 430px;}
+
+#gallery {
+    width: 880px;
+    text-align: left;
+}
+#gallery img{
+    display: inline-block;
+    margin: 16px;
+}
+
+#form {
+    width: 800px;
+    height: 300px;
+    text-align: left;
+    margin: 20px 0 0 80px;
+}
+
+input.btn {
+    color: #010;
+    font-size: 15pt;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    margin: 4px 2px;    
+}
+
+input.btn:hover {box-shadow: 4px 4px 5px 0 rgba(0,1,0,0.24)}
+
+input.btn1 {padding: 10px 20px;}
+
+input.btn_terug {
+    padding: 7px;
+    background-color: #8d9b94; 
+}
+
+.themablok {
+    display:inline-block;
+    border: 1px solid #010;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: top;
+    min-height: 67px;
+    width: 250px;
+}
+
+.themablok H2 a{
+    font-size: 15pt;
+    border-bottom: 0;
+    color: #fb7452;
+}
+
+.themablok a, a.classnaam{
+    color:#010;
+    font-weight: normal;
+}
+
+.datum {
+    font-weight: bold;
+}
+
+.teacher{
+    display: block;
+    color: #e13206;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+H2 .teacher {
+    border-bottom: 1px solid #010;
+}
+
