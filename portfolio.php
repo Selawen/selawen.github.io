@@ -1,5 +1,3 @@
-<?php include"switch.php";?>
-
 <!DOCTYPE HTML>
 <HTML>
 	<HEAD>
